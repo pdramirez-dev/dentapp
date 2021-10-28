@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Principal" />
+    <item
+        android:id="@+id/navigation_media"
+        android:title="Historias"
+        android:icon="@drawable/ic_subscriptions_black_24dp"
+        />
+
+    <item
+        android:id="@+id/navigation_game"
+        android:icon="@drawable/ic_videogame_asset_black_24dp"
+        android:title="Juego" />
+
+
+
+
+</menu>

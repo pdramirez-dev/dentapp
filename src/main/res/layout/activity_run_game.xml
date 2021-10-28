@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/media">
+
+
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="00:00"
+        android:textColor="#CA2424"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/scoree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntuación: " />
+
+    <com.pdprogramer.dentapp.model.game.GestureDetectGridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GameActivity"
+        >
+
+    </com.pdprogramer.dentapp.model.game.GestureDetectGridView>
+
+</LinearLayout>
